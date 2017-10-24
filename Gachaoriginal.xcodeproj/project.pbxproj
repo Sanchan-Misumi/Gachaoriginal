@@ -14,6 +14,11 @@
 		EE7FFE601F9F6031003BE3C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7FFE5E1F9F6031003BE3C5 /* LaunchScreen.storyboard */; };
 		EE7FFE6B1F9F6031003BE3C5 /* GachaoriginalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7FFE6A1F9F6031003BE3C5 /* GachaoriginalTests.swift */; };
 		EE7FFE761F9F6031003BE3C5 /* GachaoriginalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7FFE751F9F6031003BE3C5 /* GachaoriginalUITests.swift */; };
+		EE7FFE871F9F61A7003BE3C5 /* 大吉.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7FFE831F9F61A6003BE3C5 /* 大吉.png */; };
+		EE7FFE881F9F61A7003BE3C5 /* 小吉.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7FFE841F9F61A6003BE3C5 /* 小吉.png */; };
+		EE7FFE891F9F61A7003BE3C5 /* 中吉.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7FFE851F9F61A6003BE3C5 /* 中吉.png */; };
+		EE7FFE8A1F9F61A7003BE3C5 /* おみくじ.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7FFE861F9F61A7003BE3C5 /* おみくじ.png */; };
+		EE7FFE8C1F9F647C003BE3C5 /* UranaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7FFE8B1F9F647C003BE3C5 /* UranaiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		EE7FFE711F9F6031003BE3C5 /* GachaoriginalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GachaoriginalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7FFE751F9F6031003BE3C5 /* GachaoriginalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GachaoriginalUITests.swift; sourceTree = "<group>"; };
 		EE7FFE771F9F6031003BE3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE7FFE831F9F61A6003BE3C5 /* 大吉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大吉.png"; sourceTree = "<group>"; };
+		EE7FFE841F9F61A6003BE3C5 /* 小吉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小吉.png"; sourceTree = "<group>"; };
+		EE7FFE851F9F61A6003BE3C5 /* 中吉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中吉.png"; sourceTree = "<group>"; };
+		EE7FFE861F9F61A7003BE3C5 /* おみくじ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "おみくじ.png"; sourceTree = "<group>"; };
+		EE7FFE8B1F9F647C003BE3C5 /* UranaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UranaiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,17 @@
 		EE7FFE541F9F6031003BE3C5 /* Gachaoriginal */ = {
 			isa = PBXGroup;
 			children = (
+				EE7FFE861F9F61A7003BE3C5 /* おみくじ.png */,
+				EE7FFE841F9F61A6003BE3C5 /* 小吉.png */,
+				EE7FFE831F9F61A6003BE3C5 /* 大吉.png */,
+				EE7FFE851F9F61A6003BE3C5 /* 中吉.png */,
 				EE7FFE551F9F6031003BE3C5 /* AppDelegate.swift */,
 				EE7FFE571F9F6031003BE3C5 /* ViewController.swift */,
 				EE7FFE591F9F6031003BE3C5 /* Main.storyboard */,
 				EE7FFE5C1F9F6031003BE3C5 /* Assets.xcassets */,
 				EE7FFE5E1F9F6031003BE3C5 /* LaunchScreen.storyboard */,
 				EE7FFE611F9F6031003BE3C5 /* Info.plist */,
+				EE7FFE8B1F9F647C003BE3C5 /* UranaiViewController.swift */,
 			);
 			path = Gachaoriginal;
 			sourceTree = "<group>";
@@ -232,9 +247,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE7FFE881F9F61A7003BE3C5 /* 小吉.png in Resources */,
 				EE7FFE601F9F6031003BE3C5 /* LaunchScreen.storyboard in Resources */,
+				EE7FFE871F9F61A7003BE3C5 /* 大吉.png in Resources */,
 				EE7FFE5D1F9F6031003BE3C5 /* Assets.xcassets in Resources */,
 				EE7FFE5B1F9F6031003BE3C5 /* Main.storyboard in Resources */,
+				EE7FFE8A1F9F61A7003BE3C5 /* おみくじ.png in Resources */,
+				EE7FFE891F9F61A7003BE3C5 /* 中吉.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE7FFE581F9F6031003BE3C5 /* ViewController.swift in Sources */,
+				EE7FFE8C1F9F647C003BE3C5 /* UranaiViewController.swift in Sources */,
 				EE7FFE561F9F6031003BE3C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

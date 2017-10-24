@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBAction func uranau(){
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
